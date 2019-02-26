@@ -1,0 +1,81 @@
+<!--
+### Assignment One Instructions (Bootstrap)
+2. Using Bootstrap, recreate your portfolio site with the following items:
+   * A navbar
+   * A responsive layout (remember the grid, rows and columns are your friends)
+     * eg. On `xs` and `sm` screens, content should take up the entire screen. On `md` and larger screens, you should have some margins on the left and right side of the screen. Check out various sites on your mobile device versus your computer to see this in action!
+   * Responsive images
+
+   **BONUS**
+   Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site _(Hint: Check out the Bootstrap documentation)_
+3. Your Bootstrap solution should minimize use of media queries.
+
+### BONUS
+* Incorporate CSS animations in your portfolio. [More info here](http://www.w3schools.com/css/css3_animations.asp).
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--fixed navbar, need to add some positioning in main content to prevent overlap-->
+            <!--also .navbar-toggler, .navbar-collapse, and .navbar-expand{-sm|-md|-lg|-xl}???-->
+            <span class="navbar-brand text-white" style="background-color: #4aaaa5;">
+                <h1>Jihong Jin</h1>
+            </span>
+            <!--done-->
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active"><a href="./index.html" class="nav-link text-black-50">About</a></li>
+                    <li class="nav-item text-black-50">|</li>
+                    <li class="nav-item active"><a href="./portfolio.html" class="nav-link text-black-50">Portfolio</a>
+                    </li>
+                    <li class="nav-item text-black-50">|</li>
+                    <li class="nav-item active"><a href="./contact.html" class="nav-link text-black-50">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 border-bottom">
+                <h2>About Me</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img id="jihongImg" src="./assets/images/IMG_9025.JPG" alt="candid of Jihong" class="img-fluid rounded float-left"
+                    height="200" width="300">
+                <p>text</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <footer>Copyright&copy;<footer>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
