@@ -18,16 +18,14 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse otherText" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto d-flex align-items-center flex-grow-1 justify-content-end">
                     <li class="nav-item active">
                         <a href="./index.html" class="nav-link text-black-50">About</a>
                     </li>
-                    <li class="nav-item text-black-50">|</li>
                     <li class="nav-item active">
                         <a href="./portfolio.html" class="nav-link text-black-50">Portfolio</a>
                     </li>
-                    <li class="nav-item text-black-50">|</li>
                     <li class="nav-item active">
                         <a href="./contact.html" class="nav-link text-black-50">Contact</a>
                     </li>
@@ -42,32 +40,36 @@
                 <h2>Portfolio</h2>
             </div>
         </div>
-
-        <div class="mainContent otherText imgFlexbox">
-            <div class="imgBox">
-                <img src="./assets/images/hangman.jpg" alt="Hangman">
-                <div class="imgCaption">Hangman</div>
+		<div class="row"> <!--div class="otherText"-->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="./assets/images/hangman.jpg" alt="Hangman" class="rounded">
+                <div class="position-relative text-center imgCaption">Hangman</div>
             </div>
-            <div class="imgBox">
-                <img src="./assets/images/rpg-game.jpg" alt="RPG Game">
-                <div class="imgCaption">RPG Game</div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <img src="./assets/images/rpg-game.jpg" alt="RPG Game" class="rounded">
+                <div class="position-relative text-center imgCaption">RPG Game</div>
             </div>
-            <div class="imgBox">
-                <img src="./assets/images/trivia-game.jpg" alt="Trivia Game">
-                <div class="imgCaption">Trivia Game</div>
+		</div>
+		<div class="row"> <!--div class="otherText"-->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="./assets/images/trivia-game.jpg" alt="Trivia Game" class="rounded">
+                <div class="position-relative text-center imgCaption">Trivia Game</div>
             </div>
-            <div class="imgBox">
-                <img src="./assets/images/rutgers-info-widget.jpg" alt="Rutgers Info Widget">
-                <div class="imgCaption">Rutgers Info Widget</div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="./assets/images/rutgers-info-widget.jpg" alt="Rutgers Info Widget" class="rounded">
+                <div class="position-relative text-center imgCaption">Rutgers Info Widget</div>
             </div>
-            <div class="imgBox">
-                <img src="./assets/images/rock-paper-scissors.jpg" alt="Rock Paper Scissors">
-                <div class="imgCaption">Rock Paper Scissors</div>
+		</div>
+		<div class="row"> <!--div class="otherText"-->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="./assets/images/rock-paper-scissors.jpg" alt="Rock Paper Scissors" class="rounded">
+                <div class="position-relative text-center imgCaption">Rock Paper Scissors</div>
             </div>
-            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12"></div>
+        </div>
     </div>
 
-    <footer class="flex-0 text-white-50 text-center footer">Copyright&copy;<footer>
+    <footer class="flex-0 text-white-50 text-center otherText footer">Copyright&copy;<footer>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
