@@ -45,7 +45,6 @@ img {
 }
 
 #jihongImg {
-    width: 400px;
     margin: 0 25px 10px 0;
 }
 
@@ -77,4 +76,14 @@ button {
 
 .smFont {
     font-size: small;
+}
+
+
+@media (max-width: 425px) {
+
+	img, .imgCaption {
+		width: 100%;
+		/*float: unset;*/
+	}
+
 }
